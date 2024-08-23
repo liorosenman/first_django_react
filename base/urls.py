@@ -12,5 +12,6 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     path('', views.index),
     path('login/', views.MyTokenObtainPairView.as_view()), 
+    path('register/', views.register)
 
 ]
